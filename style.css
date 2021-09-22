@@ -20,6 +20,7 @@ body {
 
 ul {
     list-style-type: none;
+   padding: 0px;
 }
 
 .clearfix::after {
@@ -31,6 +32,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 
 /* HEADER */
 header {
@@ -45,41 +47,60 @@ nav {
 /* DEBUG */
 }
 
-.navcontainer {
-    position: relative;
-    height: 100px;
+#navblock1 {
+    width: 20%;
+    float: left;
+    margin-top: 25px;
 }
 
-.navcontainer>img {
-    position: absolute;
-    top: 50px;
-    left: 64px;
-    transform: translate(-50%, -50%);
+#navblock2 {
+    width: 60%;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
 }
 
-.buttonnav {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+#navblock3 {
+    width: 20%;
+    float: left;
+    margin-top: 25px;
+    text-align: right;
 }
 
-.buttonnav>a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    margin: 20px;
+.navtab {
+    display: inline-block;
+}
+
+.navtab>a {
+    margin-right: 20px;
+    margin-left: 20px;
     color: #fff;
 }
 
-.loginbutton {
-    position: absolute;
-    right: -1%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+#navblock3>a {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 6px 13px 6px 13px;
 }
 
-.loginbutton>a {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .loginbutton>a {
     font-size: 20px;
     font-weight: 500;
     background-color: white;
@@ -87,38 +108,20 @@ nav {
     color: black;
     text-decoration: none;
     padding: 6px 15px 6px 15px;
-}
+} */
+
+
 
 /* SECTION */
-header>section {
+/* header>section {
     height: 60vh;
     background-image: url(img/jumbo.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    background-repeat: no-repeat; */
     /* DEBUG */
 }
 
-#maintitle {
-    font-size: 60px;
-    position: absolute;
-    left: 50%;
-    bottom: 65%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-}
-
-.headersection p {
-    font-size: 25px;
-    position: absolute;
-    left: 50%;
-    bottom: 35%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-}
-
-.download-button {
+/* .download-button {
     font-size: 25px;
     position: absolute;
     left: 50%;
@@ -147,129 +150,5 @@ header>section {
     border-radius: 20px;
     color: #fff;
     padding: 12px 30px 12px 30px;
-}
+} */
 
-i {
-    height: 40px;
-}
-
-/* MAIN */
-/* DEBUG */
-
-/* SECTION1 */
-
-#mainsection1 {
-    border-bottom: 5px solid #f6f6f6;
-}
-
-.containersection1 {
-    height: 90vh;
-    position: relative;
-}
-
-.containersection1>img {
-    position: absolute;
-    top: 100px;
-    left: 100px
-}
-
-.containersection1>h3 {
-    position: absolute;
-    top: 140px;
-    right: 130px;
-    font-size: 50px;
-    color: #23272a;
-}
-
-.containersection1>p {
-    position: absolute;
-    top: 450px;
-    right: 140px;
-    font-size: 20px;
-    color: #23272a;
-}
-
-/* DEBUG */
-
-/* SECTION2 */
-#mainsection2 {
-    background-color: #f6f6f6;
-}
-
-.containersection2 {
-    height: 90vh;
-    position: relative;
-}
-
-.containersection2>h3 {
-    position: absolute;
-    top: 150px;
-    left: 100px;
-    font-size: 50px;
-    color: #23272a;
-}
-
-.containersection2>img {
-    position: absolute;
-    top: 140px;
-    right: 130px;
-}
-
-.containersection2>p {
-    position: absolute;
-    top: 290px;
-    left: 100px;
-    font-size: 20px;
-    color: #23272a;
-}
-/* DEBUG */
-
-/* SECTION */
-#mainsection3 {
-    border-bottom: 5px solid #f6f6f6;
-}
-
-.containersection3 {
-    height: 90vh;
-    position: relative;
-}
-
-.containersection3>img {
-    position: absolute;
-    top: 100px;
-    left: 100px
-}
-
-.containersection3>h3 {
-    position: absolute;
-    top: 140px;
-    right: 130px;
-    font-size: 50px;
-    color: #23272a;
-}
-
-.containersection3>p {
-    position: absolute;
-    top: 282px;
-    right: 90px;
-    font-size: 20px;
-    color: #23272a;
-}
-/* DEBUG */
-
-/* SECTION */
-/* DEBUG */
-
-
-
-/* FOOTER */
-footer {
-    background-color: #23272a;
-/* DEBUG */
-height: 300px;
-}
-/* SECTION */
-/* DEBUG */
-
-/* SECTION */
-/* DEBUG */
