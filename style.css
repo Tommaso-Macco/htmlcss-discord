@@ -22,6 +22,15 @@ ul {
     list-style-type: none;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
 
 /* HEADER */
 header {
@@ -86,10 +95,63 @@ header>section {
     background-image: url(img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    /* DEBUG */
 }
-/* DEBUG */
 
+#maintitle {
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    bottom: 65%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
 
+.headersection p {
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    bottom: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.download-button {
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.mac-download, .webdiscord {
+    float: left;
+}
+
+.mac-download {
+    margin-right: 50px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: black;
+    padding: 12px 30px 12px 30px;
+}
+
+.webdiscord {
+    background-color: #23272a;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: #fff;
+    padding: 12px 30px 12px 30px;
+}
+
+i {
+    height: 40px;
+}
 
 /* MAIN */
 /* DEBUG */
